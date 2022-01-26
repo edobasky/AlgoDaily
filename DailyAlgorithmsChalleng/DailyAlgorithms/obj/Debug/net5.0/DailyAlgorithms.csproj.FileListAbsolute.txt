@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\DailyAlgorithms.exe
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\DailyAlgorithms.deps.json
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\DailyAlgorithms.runtimeconfig.json
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\DailyAlgorithms.runtimeconfig.dev.json
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\DailyAlgorithms.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\ref\DailyAlgorithms.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\bin\Debug\net5.0\DailyAlgorithms.pdb
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.AssemblyInfo.cs
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\ref\DailyAlgorithms.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.pdb
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DailyAlgorithms\obj\Debug\net5.0\DailyAlgorithms.genruntimeconfig.cache
