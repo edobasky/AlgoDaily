@@ -1,98 +1,69 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace DailyAlgorithms
 {
-    public  class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            var ans = Longest("aretheyhere", "yestheyarehere");
+            var ans = rowSumOddNumbers(2);
             Console.WriteLine(ans);
 
-            Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
 
-
-        public static string Longest(string s1, string s2)
+        public static long rowSumOddNumbers(long n)
         {
-            // your code
-            /*  var temp = s1.Concat(s2).ToArray();
-              Array.Sort(temp);
-              var result = "";
-              for (int i = 0; i < temp.Length; i++)
-              {
-                  if (!result.Contains(temp[i]))
-                  {
-                      result += temp[i];
-                  }
-              }
-
-              return result;*/
-            return new string((s1 + s2).Distinct().OrderBy(x => x).ToArray());
-
+            var start = 0;
+            for (int i = 0; i < n; i++)
+            {
+                start += i;
+            }
+            start *= 2;
+            var ans = start + 1;
+            for (int k = 0; k < n; k++)
+            {
+                ans += 2;
+            }
+            return ans;
         }
 
-        // https://www.codewars.com/kata/5412509bd436bd33920011bc/train/csharp
-
-        /* public static string Maskify(string cc)
+        /* public static string FirstReverse(string str)
          {
-             var result = "";
-             if (cc.Length <= 4)
-             {
-                 result = cc;
-             }
-             else
-             {
-              for (var i = 0; i < cc.Length; i++)
-                 {
-                     if(i <= cc.Length - 5)
-                     {
-                         result += "#";
-                     } else
-                     {
-                         result += cc[i];
-                     }
-                 }
 
+             // code goes here  
+             var ans = "";
+             for (int i = str.Length - 1; i >= 0; i--)
+             {
+                 ans += str[i];
              }
-             return result;
+             return ans;
+
          }*/
 
-        //https://www.codewars.com/kata/558fc85d8fd1938afb000014
-        /*    public static int sumTwoSmallestNumbers(int[] numbers)
-            {
-                //Code here...
-                int sum = 0;
-                sum = numbers.OrderBy(x => x).Take(2).Sum();
-                return sum;
-            }*/
+        /*   // https://www.codewars.com/kata/56269eb78ad2e4ced1000013/train/csharp
+           public static long FindNextSquare(long num)
+           {
+               // your code here
+               var  ans = Math.Sqrt(num);
+               if (ans - Convert.ToInt32(ans) != 0)
+               {
+                   return -1;
+               }
+               return Convert.ToInt64(Math.Pow((ans + 1), 2));
+           }*/
 
-        // https://www.codewars.com/kata/55908aad6620c066bc00002a/train/csharp
-        /*    public static bool XO(string input)
-            {
-                //Code it!
-                int x = 0;
-                int o = 0;
-
-                char[] letters = input.ToLower().ToCharArray();
-                foreach(char c in letters)
+        // https://www.codewars.com/kata/55b42574ff091733d900002f/train/csharp
+        /*
+                public static IEnumerable<string> FriendOrFoe(string[] names)
                 {
-                    if(c == 'x')
-                    {
-                        x++;
-                    } else if(c == 'o')
-                    {
-                        o++;
-                    }
-                }
+                    // Good luck!
+                    var ans = names.Where(x => x.Length == 4).Select(x => x).ToList();
+                    return ans;
 
-                return x == 0;
-
-              //  return input.ToLower().Count(i => i == 'x') == input.ToLower().Count(i => i == '0');
-            }*/
-
+                }*/
     }
-
 
 }
