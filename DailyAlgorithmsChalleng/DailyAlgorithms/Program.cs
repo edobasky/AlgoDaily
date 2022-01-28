@@ -8,27 +8,96 @@ namespace DailyAlgorithms
     {
         static void Main(string[] args)
         {
-            var ans = rowSumOddNumbers(2);
+            var ans = digPow(89, 1);
             Console.WriteLine(ans);
+
+            /* foreach(var item in ans)
+             {
+                 Console.WriteLine(item);
+             }*/
 
             Console.ReadLine();
         }
 
-        public static long rowSumOddNumbers(long n)
+
+        public static long digPow(int n, int p)
         {
-            var start = 0;
-            for (int i = 0; i < n; i++)
+            // your code
+            var temp = new string(n);
+            var total = 0;
+            for(int i = 0; i < temp.Length; i++)
             {
-                start += i;
+               total += (int)Math.Pow(temp[i], p);
+                p++;
             }
-            start *= 2;
-            var ans = start + 1;
-            for (int k = 0; k < n; k++)
+            if (total == (n * p))
             {
-                ans += 2;
+                return total;
             }
-            return ans;
+            return -1;
         }
+
+        /*  public static string HighAndLow(string numbers)
+          {
+              // Code here or
+              *//* var c = numbers.Split(" ");
+               List<int> temp = new List<int>();
+               for(int i = 0; i < c.Length; i++)
+               {
+                   temp.Add(int.Parse(c[i]));
+               }
+               var ans = temp.OrderBy(x => x);
+               return $"{ans.Max()} {ans.Min()}";*//*
+     //********************************************************
+              *//*var c = numbers.Split(" ").Select(Int32.Parse).ToArray();
+              return $"{c.Max()} {c.Min()}`";*//*
+          }*/
+
+        /*  public static string PrinterError(String s)
+          {
+              // your code
+              var num = "";
+
+              num = string.Concat(s.Where(letter => !"a,b,c,d,e,f,g,h,i,j,k,l,m".Contains(letter)));
+              return $"{num.Length} / {s.Length}";
+          }*/
+
+
+
+        /* public static string AddBinary(int a, int b)
+          {
+              // your code ...
+              return Convert.ToString((a + b), 2);
+          }*/
+
+        /*public static string Disemvowel(string str)
+        {
+            return string.Concat(str.Where(letter => !"aeiouAEIOU".Contains(letter)));
+        }*/
+
+        /* public static int[] GetEvenNumbers(int[] numbers)
+         {
+             // filter out the odd numbers
+
+             IEnumerable<int> ans = numbers.Where(x => x % 2 == 0);
+             return ans.ToArray();
+         }*/
+
+        /* public static long rowSumOddNumbers(long n)
+         {
+             var start = 0;
+             for (int i = 0; i < n; i++)
+             {
+                 start += i;
+             }
+             start *= 2;
+             var ans = start + 1;
+             for (int k = 0; k < n; k++)
+             {
+                 ans += 2;
+             }
+             return ans;
+         }*/
 
         /* public static string FirstReverse(string str)
          {
@@ -64,6 +133,8 @@ namespace DailyAlgorithms
                     return ans;
 
                 }*/
-    }
 
+    }
 }
+
+
