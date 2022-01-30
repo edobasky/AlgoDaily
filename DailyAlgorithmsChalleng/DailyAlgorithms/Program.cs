@@ -8,7 +8,7 @@ namespace DailyAlgorithms
     {
         static void Main(string[] args)
         {
-            var ans = GetMiddle("test");
+            var ans = new int[] { 0, 1, 2 };
             Console.WriteLine(ans);
 
            /* foreach (var item in ans)
@@ -19,44 +19,51 @@ namespace DailyAlgorithms
             Console.ReadLine();
         }
 
-
-
-        public static string GetMiddle(string s)
+        public static string OddOrEven(int[] array)
         {
-            //Code goes here!
-            var ans = "";
-            var temp = s.ToCharArray();
-            var l = temp.Length;
+            //enter code here
 
-            if (l % 2 == 0)
-            {
-                ans = (temp[(l / 2) - 1]).ToString() + (temp[l / 2]).ToString();
-            }
-            else
-            {
-                ans = (temp[(l - 1) / 2]).ToString();
-            }
-            return ans;
+            return array.Sum() % 2 == 0 ? "even" : "odd";
         }
-        /*        public static IEnumerable<string> OpenOrSenior(int[][] data)
+        /*
+                public static int Number(List<int[]> peopleListInOut)
                 {
-                    //your code here
-                     List<string> ans = new List<string>();
-                    for (int i = 0; i < data.Length; i++)
-                    {
+                    // Happy Coding
+                    *//* int totalInBus = 0;
+                     int totalOutOfBus = 0;
+                     for (int i = 0; i < peopleListInOut.Count; i++)
+                     {
 
-                             if (data[i][0] >= 55 && data[i][1] > 7)
-                            {
-                                ans.Add("Senior");
-                            }else
-                            {
-                                ans.Add("Open");
-                            }
+                         totalInBus += peopleListInOut[i][0];
+                         totalOutOfBus = peopleListInOut[i][1];
+                     }
+                     return totalInBus - totalOutOfBus;*//*
 
-                    }
-                    return ans;
-                }
-        */
+                    return peopleListInOut.Sum(x => x[0] - x[1]);
+                }*/
+
+        /* public static bool Solution(string str, string ending)
+         {
+             // TODO: complete
+             return str.EndsWith(ending);
+
+
+         }*/
+
+        /* public static int binaryArrayToNumber(int[] BinaryArray)
+         {
+             //Code here
+             *//*var temp = "";
+
+             foreach(var item in BinaryArray)
+             {
+                 temp += item;
+             }
+
+             return Convert.ToInt32(temp, 2);*//*
+             return Convert.ToInt32(string.Join("", BinaryArray),2);
+
+         }*/
     }
 }
 
