@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyAlgorithms", "DailyAlgorithms\DailyAlgorithms.csproj", "{B9156976-6255-4DCA-85A9-B9C4FCD0FB2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyAlgorithms", "DailyAlgorithms\DailyAlgorithms.csproj", "{B9156976-6255-4DCA-85A9-B9C4FCD0FB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecaAlgo", "DecaAlgo\DecaAlgo.csproj", "{D78FF08B-34E6-4700-A32F-D5A1E888B0FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B9156976-6255-4DCA-85A9-B9C4FCD0FB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9156976-6255-4DCA-85A9-B9C4FCD0FB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9156976-6255-4DCA-85A9-B9C4FCD0FB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78FF08B-34E6-4700-A32F-D5A1E888B0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78FF08B-34E6-4700-A32F-D5A1E888B0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78FF08B-34E6-4700-A32F-D5A1E888B0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78FF08B-34E6-4700-A32F-D5A1E888B0FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\DecaAlgo.exe
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\DecaAlgo.deps.json
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\DecaAlgo.runtimeconfig.json
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\DecaAlgo.runtimeconfig.dev.json
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\DecaAlgo.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\ref\DecaAlgo.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\bin\Debug\net5.0\DecaAlgo.pdb
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.AssemblyInfo.cs
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\ref\DecaAlgo.dll
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.pdb
+C:\Users\hp\Desktop\AlgoMaestro\DailyAlgorithmsChalleng\DecaAlgo\obj\Debug\net5.0\DecaAlgo.genruntimeconfig.cache

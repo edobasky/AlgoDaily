@@ -8,23 +8,82 @@ namespace DailyAlgorithms
     {
         static void Main(string[] args)
         {
-            var ans = new int[] { 0, 1, 2 };
+            var ans = PrimeString("abcabcabc");
             Console.WriteLine(ans);
 
-           /* foreach (var item in ans)
-            {
-                Console.WriteLine(item);
-            }*/
+            /* foreach (var item in ans)
+             {
+              *//*   Console.WriteLine(item);
+             }*/
 
             Console.ReadLine();
         }
 
-        public static string OddOrEven(int[] array)
+        public static bool PrimeString(string s)
         {
-            //enter code here
+            var tempHold = "";
 
-            return array.Sum() % 2 == 0 ? "even" : "odd";
+            // seperate the first set of repeated letters abc from abcabcabc... as compare strings
+            List<char> wrd = new List<char>();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (!wrd.Contains(s[i]))
+                {
+                    wrd.Add(s[i]);
+                }
+            };
+
+
+            // loop through main word to separate repeated sets of charracters into a list as strings
+            List<string> tempAns = new List<string>();
+
+            for (var i = 0; i < s.Length; i++)
+            {
+                if (s[i] == wrd[wrd.Count - 1])
+                {
+                    tempHold += s[i];
+                    tempAns.Add(tempHold);
+                    tempHold = "";
+                    continue;
+                }
+                else if (i == (s.Length - 1))
+                {
+                    tempHold += s[i];
+                    tempAns.Add(tempHold);
+                    tempHold = "";
+                    continue;
+                }
+                tempHold += s[i];
+
+
+            }
+
+
+            // compare start and end of seperated word to check for repeated initial and end of compare string
+            foreach (var item in tempAns)
+            {
+                if (!item.StartsWith(wrd[0]) || !item.EndsWith(wrd[wrd.Count - 1]))
+                {
+                    return true;
+                }
+            }
+            return false;
+
         }
+
+        /*  public static string ReverseWords(string str)
+          {
+              //Write your code here
+              return string.Join(" ", str.Split(' ').Select(X => new string(X.Reverse().ToArray())));
+          }*/
+
+        /*  public static string OddOrEven(int[] array)
+          {
+              //enter code here
+
+              return array.Sum() % 2 == 0 ? "even" : "odd";
+          }*/
         /*
                 public static int Number(List<int[]> peopleListInOut)
                 {
